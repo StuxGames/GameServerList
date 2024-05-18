@@ -63,6 +63,7 @@ the [Flappy Race repo here](https://github.com/StuxGames/FlappyRace/blob/main/se
 ## Running the Server List
 Can either be compiled and run standalone or through the Docker images provided on Dockerhub at
 [`stuxgames/gameserverlist`](https://hub.docker.com/repository/docker/stuxgames/gameserverlist/general).
+
 ### Docker
 Docker images are automatically built from the `main` branch for every commit.
 Ensure you have Docker installed and then run:
@@ -72,6 +73,7 @@ docker run stuxgames/gameserverlist
 ```
 See [this page](https://hub.docker.com/repository/docker/stuxgames/gameserverlist/general) for more
 details on available versions.
+
 ### Standalone
 First ensure you have Rust and cargo installed on your system and then use:
 ```bash
