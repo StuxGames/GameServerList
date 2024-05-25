@@ -6,8 +6,8 @@ their state in real time. This should work with any game engine as long as it's 
 requests and start WebSocket connections.
 
 Originally written for the open source game
-[Flappy Race](https://github.com/StuxGames/FlappyRace).
-Used as part of the [Flappy Race Backend](https://github.com/StuxGames/FlappyRaceBackend) which
+[Flappie Race](https://github.com/StuxGames/FlappieRace).
+Used as part of the [Flappie Race Backend](https://github.com/StuxGames/FlappieRaceBackend) which
 contains other microservices for the game.
 
 ## Features
@@ -35,7 +35,7 @@ contains other microservices for the game.
 This is how to use the API with Godot, but should work similarly for other game engines. Expects
 messages to be sent in JSON format.
 A fully working component that implements this (including automatic reconnection) can be found in
-the [Flappy Race repo here](https://github.com/StuxGames/FlappyRace/blob/main/server/server_list_handler.gd).
+the [Flappie Race repo here](https://github.com/StuxGames/FlappieRace/blob/main/server/server_list_handler.gd).
 
 ### 1. Starting the WebSocket Connection
 ```py
